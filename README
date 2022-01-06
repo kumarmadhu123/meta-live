@@ -7,6 +7,8 @@ Add this layer to your bblayers.conf
 
 Change machine name to "livearm" in conf/local.conf of your  build
 
+Where to change the Kernel version Number ?
+Change the VARIABLE LINUX_VERSION ?= "4.9.247" with your desired kernel version at recipes-kernel/linux/linux-stable.bb
 
 If you are using appends for any variable Follow the below standard.
 
