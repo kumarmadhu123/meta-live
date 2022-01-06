@@ -1,4 +1,4 @@
-This layer is for testing the linux-stable on qemuarm (MACHINE NAME will show as livearm ) 
+This layer is for testing any  linux-stable version on qemuarm (MACHINE NAME will show as livearm ) 
 
 
 This is tested on poky master branch
