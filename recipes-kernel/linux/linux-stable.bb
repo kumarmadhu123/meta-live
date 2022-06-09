@@ -56,18 +56,18 @@ require recipes-kernel/linux/linux-yocto.inc
 # tree if you do not want to build from Linus' tree.
 #SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git;protocol=git;nocheckout=1;name=machine"
 SRC_URI = " \ 
-		git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git;protocol=git;nocheckout=1;name=machine;branch=linux-4.9.y \
+		git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git;protocol=git;nocheckout=1;name=machine;branch=linux-4.14.y \
 	    	file://defconfig \
 "
 
-LINUX_VERSION ?= "4.9.247"
+LINUX_VERSION ?= "4.14.2777"
 LINUX_VERSION_EXTENSION:append = "-custom"
 
 # Modify SRCREV to a different commit hash in a copy of this recipe to
 # build a different release of the Linux kernel.
 # tag: v4.2 64291f7db5bd8150a74ad2036f1037e6a0428df2
 #SRCREV_livearm="4c0fe77545077b5052b645b28b73f3c759b4ba03"
-SRCREV_machine="5d55c2adbefeb2d49d16891ed8ca8d03789fd31b"
+SRCREV_machine="e3a56aaade89bc89f33baec11b12538fc22536e2"
 
 #PV = "4.9.247"
 PV = "${LINUX_VERSION}+git${SRCPV}"
