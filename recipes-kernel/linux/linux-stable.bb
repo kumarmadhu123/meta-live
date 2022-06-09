@@ -60,7 +60,7 @@ SRC_URI = " \
 	    	file://defconfig \
 "
 
-LINUX_VERSION ?= "4.14.2777"
+LINUX_VERSION ?= "4.14.277"
 LINUX_VERSION_EXTENSION:append = "-custom"
 
 # Modify SRCREV to a different commit hash in a copy of this recipe to
