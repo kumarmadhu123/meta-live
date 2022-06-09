@@ -1,7 +1,7 @@
 This layer is for testing any  linux-stable version on qemuarm (MACHINE NAME will show as livearm ) 
 
 
-This is tested on poky master branch
+This is tested on poky honister branch , Checked out at commit fd00d74f47ceb57a619c4d0a0553ff0a30bbb7a4 
 
 Add this layer to your bblayers.conf
 
